@@ -19,21 +19,24 @@ This is a personal observation log, not a controlled study. The sample is small 
 - Every plant is photographed once per week, on Sundays at 16:00
 - The fixed day and time keeps light conditions and the weekly interval roughly constant between observations
 - Each plant has its own folder; each photo is named by the date it was taken
-- Observations are logged in `observations.csv` with the visible stage and a short note
+- A written observation log recording the visible stage of each plant per session is in preparation
 
 ## Repository structure
 
 ```
-plants/
-  01_hoya-pubicalyx/
-    2026-07-26.jpg
-    2026-08-02.jpg
-    2026-08-09.jpg
-    ...
-  02_hoya-verticillata/
+01_hoya-pubicalyx/
+  2026-07-26.jpg
+  2026-08-02.jpg
+  2026-08-09.jpg
+  2026-08-16.jpg
+02_hoya-verticillata/
   ...
-observations.csv
+...
+10_cattleya-sp/
+  ...
 ```
+
+Each plant has its own folder at the top level of the repository, containing one photograph per observation session, named by date.
 
 Folders are numbered rather than named, so a plant's identifier stays stable even if its identification is later corrected.
 
@@ -72,6 +75,7 @@ These are worth stating plainly, because they bound what the data can show:
 
 ## Planned additions
 
+- A written observation log (`observations.csv`) recording stage and notes for every plant at each session
 - Continued weekly observations through the monsoon and dry seasons
 - Species-level identification for the *Dendrobium* and *Cattleya* plants, ideally when they next flower
 - Simple environmental context per observation, drawn from local weather records
